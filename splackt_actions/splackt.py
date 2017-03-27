@@ -19,7 +19,7 @@ import slackbot_settings
 
 #import pandas
 
-g = db = pdbc.dbs(p=False,l=False,s=False,ms=False, g=True).g
+g =  pdbc.dbs(p=False,l=False,s=False,ms=False, g=True).g
 
 
 #Change mpl backend
