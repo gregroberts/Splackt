@@ -19,7 +19,7 @@ import slackbot_settings
 
 #import pandas
 
-g = py2neo.Graph('http://neo4j:skynet@178.62.55.202:7474/db/data')
+g = db = pdbc.dbs(p=False,l=False,s=False,ms=False, g=True).g
 
 
 #Change mpl backend
